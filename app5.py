@@ -7,6 +7,7 @@ import io
 
 # Create Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define app layout
 app.layout = html.Div([
